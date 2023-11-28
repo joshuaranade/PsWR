@@ -1,5 +1,7 @@
+
 .home{
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 .container{
@@ -19,9 +21,6 @@
     opacity: 100%;
     border-radius: 5px;
 }
-.tag-line{
-    font-size:70px;
-}
 .loc{
     display: flex;
     align-items: center;
@@ -29,8 +28,8 @@
     border: 1px solid #530279;
     border-radius: 5px;
     background-color: white;
-    width:50px;
-    height: 50px;
+    width:45px;
+    height: 45px;
 }
 .loc img{
     width:30px;
@@ -41,22 +40,16 @@
     font-weight: 100;
 
 }
-.sec-line{
-    font-size: 45px;
-    margin-right: 20px;
-}
 .extra-info{
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 .extra-info p{
     margin-bottom: 0;
 }
 .extra-info a:hover{
     box-shadow: 0 0 5px #530279;
-}
-.in-info{
-    font-size: 20px;
 }
 .container .line-break-new{
     border-top: 2px solid #343a40;
@@ -88,9 +81,16 @@
 }
 .h-adj{
     width: 70px;
-    height: 70px !important;
+    height: 70px;
     margin-bottom: 20px;
 }
-.big-font{
-    font-size:30px;
+.in-line h1{
+    text-align: center;
+}
+.extra-info p{
+    text-align: center;
+    margin-right: 20px;
+}
+.vs-line .py-5 p{
+    text-align:center
 }

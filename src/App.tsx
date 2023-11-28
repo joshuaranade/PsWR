@@ -9,7 +9,6 @@ const App = () => {
   const [fadeIn, setFadeIn] = useState(false);
 
   useEffect(() => {
-    // Trigger the fade-in animation when the component mounts
     setFadeIn(true);
   }, []);
 

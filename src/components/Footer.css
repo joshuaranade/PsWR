@@ -1,12 +1,15 @@
+
 .container-footer{
-    padding: 3vh;
-    box-shadow: 10px 10px 20px #343a40;
+    padding: 2vh;
+    box-shadow: 0px 0px 4px #530279;
+    overflow-x: hidden;
 }
 .footer{
     width: 100%;
-    flex-direction: start;
     margin: auto;
     align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
 }
 .footer p{
     margin:0;
@@ -15,6 +18,8 @@
     transform: rotate(180deg);
 }
 .footer a:hover{
-    display: show;
     box-shadow: 0 0 5px #530279;
+}
+.img-container p{
+    padding: 5px;
 }

@@ -4,13 +4,13 @@ import "./Home.tsx"
 function Navbar(){
     return (
         <div> 
-            <nav className="navbar bg-dark navbar-expand-lg fixed-top">
+            <nav className="navbar bg-light navbar-expand-lg fixed-top">
                 <div className ="bar d-flex container-xs">
                     <a className ="navbar-brand long-logo" href="home">
-                        <img src="src/assets/newlong.png" alt="Logo" width="150" height="50" className="d-none d-lg-block align-text-top"/>
+                        <img src="src/assets/fulllogo2.png" alt="Logo" width="150" height="50" className="d-none d-lg-block align-text-top"/>
                     </a>
-                    <a className ="navbar-brand" href="home">
-                        <img src="src/assets/newshort2.png" alt="Logo" width="47" height="47" className="d-lg-none align-text-top"/>
+                    <a className ="navbar-brand short-logo" href="home">
+                        <img src="src/assets/bwlogo.png" alt="Logo" width="47" height="47" className="d-lg-none align-text-top"/>
                     </a>
                     <div className="r-header d-flex justify-content-end align-items-center d-none d-lg-block navbar-expand-lg">
                         <ul className="navbar-nav ul-order">
@@ -40,9 +40,9 @@ function Navbar(){
                     {/* <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button> */}
-                    <div className="offcanvas offcanvas-end bg-dark" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div className="offcanvas offcanvas-end bg-light" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header">
-                            <h2 className="offcanvas-title ps-purple-light txt-bold" id="offcanvasNavbarLabel">PARNASOFT</h2>
+                            <h2 className="offcanvas-title ps-purple txt-bold" id="offcanvasNavbarLabel">PARNASOFT</h2>
                             <div className="close-icon-container" data-bs-dismiss="offcanvas" aria-controls="Close">
                                 <div className="close-icon">
                                     <span className="x1-line"></span>
