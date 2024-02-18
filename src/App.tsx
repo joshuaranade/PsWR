@@ -1,9 +1,8 @@
-
-import { useEffect, useState } from 'react';
-import './App.css';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import { useEffect, useState } from "react";
+import "./App.css";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -13,13 +12,18 @@ const App = () => {
   }, []);
 
   return (
-    <div className={`App ${fadeIn ? 'fade-in' : ''}`}>
-      <div><Navbar/></div>
-      <div><Home/></div>
-      <div><Footer/></div>
+    <div className={`App ${fadeIn ? "fade-in" : ""}`}>
+      <div>
+        <Navbar />
+      </div>
+      <div>
+        <Home />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
 
 export default App;
-

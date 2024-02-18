@@ -7,7 +7,7 @@ function Navbar(){
             <nav className="navbar bg-light navbar-expand-lg fixed-top">
                 <div className ="bar d-flex container-xs">
                     <a className ="navbar-brand long-logo" href="home">
-                        <img src="src/assets/fulllogo2.png" alt="Logo" width="150" height="50" className="d-none d-lg-block align-text-top"/>
+                        <img src="src/assets/fulllogo.png" alt="Logo" width="150" height="50" className="d-none d-lg-block align-text-top"/>
                     </a>
                     <a className ="navbar-brand short-logo" href="home">
                         <img src="src/assets/bwlogo.png" alt="Logo" width="47" height="47" className="d-lg-none align-text-top"/>
